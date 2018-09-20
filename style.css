@@ -1,0 +1,52 @@
+input[type=text] {
+	border: 2px solid #000;
+	padding: 10px;
+}
+input[type=submit] {
+	border: 2px solid #009CE6;
+	padding: 10px 30px;
+	color: #009CE6;
+	background-color: transparent;
+	font-weight: 700;
+	margin-left: 10px;
+}
+input[type=submit]:hover{
+	background-color: #eee;
+}
+form>p{
+	font-size: 1.5rem;
+
+}
+form>p>span{
+	text-decoration: underline;
+}
+
+/*modal window*/
+#popup{
+	position: fixed;
+	top: 10%;
+	left: 40%;
+	width: 20%;
+	height: 15vh;
+
+	background-color: rgba(0,0,0,0.05);
+	border-radius: 10px;
+	overflow: hidden;
+}
+button {
+	float: right;
+	margin-right: 2px;
+	border: 2px solid #009CE6;
+	border-radius: 5px;
+	font-size: 1.2rem;
+}
+#popup p{
+	text-align: center;
+	font-size: 1.2rem;
+	color: red;
+	padding: 5px 25px;
+}
+
+.hide{
+	display: none;
+}
